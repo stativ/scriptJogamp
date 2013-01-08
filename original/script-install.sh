@@ -16,7 +16,7 @@ mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=jogl-all -Dversi
 mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=jogl-all-mobile -Dversion=@v.org.jogamp.jogl@ -Dfile=./jogl-all-mobile.jar -DpomFile=./pom-jogl-all-mobile.xml -Dpackaging=jar
 
 mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=jogl-all-noawt -Dversion=@v.org.jogamp.jogl@ -Dfile=./jogl-all-noawt.jar -DpomFile=./pom-jogl-all-noawt.xml -Dpackaging=jar
-mvn install:install-file  -DgroupId=org.jogamp.jogl -DartifactId=jogl-all-natives-linux-amd64 -Dversion=@v.org.jogamp.jogl@ -Dfile=./jogl-all-natives-linux-amd64.jar -DpomFile=./pom-jogl-all-natives-linux-amd64.xml -Dpackaging=jar
+mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=jogl-all-natives-linux-amd64 -Dversion=@v.org.jogamp.jogl@ -Dfile=./jogl-all-natives-linux-amd64.jar -DpomFile=./pom-jogl-all-natives-linux-amd64.xml -Dpackaging=jar
 mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=jogl-all-natives-macosx-universal -Dversion=@v.org.jogamp.jogl@ -Dfile=./jogl-all-natives-macosx-universal.jar -DpomFile=./pom-jogl-all-natives-macosx-universal.xml -Dpackaging=jar
 mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=jogl-all-natives-linux-i586 -Dversion=@v.org.jogamp.jogl@ -Dfile=./jogl-all-natives-linux-i586.jar -DpomFile=./pom-jogl-all-natives-linux-i586.xml -Dpackaging=jar
 mvn install:install-file -DgroupId=org.jogamp.jogl -DartifactId=jogl-all-natives-solaris-amd64 -Dversion=@v.org.jogamp.jogl@ -Dfile=./jogl-all-natives-solaris-amd64.jar -DpomFile=./pom-jogl-all-natives-solaris-amd64.xml -Dpackaging=jar
