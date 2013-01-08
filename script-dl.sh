@@ -4,11 +4,11 @@
 . mapping-version-current
 
 # make sure the destination directory exists
-mkdir -p downloads
+mkdir -p out
 # make sure there are no old files
-rm -r downloads/*
+rm -r out/*
 
-cd downloads
+cd out
 
 wget http://jogamp.org/deployment/$version/jar/gluegen.jar
 wget http://jogamp.org/deployment/$version/jar/gluegen-rt.jar
