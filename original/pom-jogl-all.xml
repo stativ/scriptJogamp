@@ -2,7 +2,7 @@
 <modelVersion>4.0.0</modelVersion>
 
 <groupId>org.jogamp.jogl</groupId>
-<artifactId>jogl.all</artifactId>
+<artifactId>jogl-all</artifactId>
 <version>@v.org.jogamp.jogl@</version>
 <packaging>jar</packaging> 
 <name>Jogl</name>

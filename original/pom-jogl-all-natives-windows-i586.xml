@@ -10,7 +10,7 @@
 <dependencies>
     <dependency>
         <groupId>org.jogamp.jogl</groupId>
-	<artifactId>jogl.all</artifactId>
+	<artifactId>jogl-all</artifactId>
         <version>@v.org.jogamp.jogl@</version>
     </dependency>
 </dependencies>
