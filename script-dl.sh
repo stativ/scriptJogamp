@@ -1,6 +1,7 @@
 #!/bin/bash
 
-version="jogamp-current"
+# the version is stored along with the mapping in the mapping-version-current file
+. mapping-version-current
 
 wget http://jogamp.org/deployment/$version/jar/gluegen.jar
 wget http://jogamp.org/deployment/$version/jar/gluegen-rt.jar
