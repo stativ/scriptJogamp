@@ -3,6 +3,13 @@
 # the version is stored along with the mapping in the mapping-version-current file
 . mapping-version-current
 
+# make sure the destination directory exists
+mkdir -p downloads
+# make sure there are no old files
+rm -r downloads/*
+
+cd downloads
+
 wget http://jogamp.org/deployment/$version/jar/gluegen.jar
 wget http://jogamp.org/deployment/$version/jar/gluegen-rt.jar
 wget http://jogamp.org/deployment/$version/jar/gluegen-rt-natives-linux-amd64.jar
