@@ -27,8 +27,8 @@ wget http://jogamp.org/deployment/$version/jar/jocl-natives-solaris-amd64.jar
 wget http://jogamp.org/deployment/$version/jar/jocl-natives-solaris-i586.jar
 wget http://jogamp.org/deployment/$version/jar/jocl-natives-windows-amd64.jar
 wget http://jogamp.org/deployment/$version/jar/jocl-natives-windows-i586.jar
-wget http://jogamp.org/deployment/$version/jar/jogl.all.jar
-wget http://jogamp.org/deployment/$version/jar/jogl.all-mobile.jar
+wget http://jogamp.org/deployment/$version/jar/jogl-all.jar
+wget http://jogamp.org/deployment/$version/jar/jogl-all-mobile.jar
 wget http://jogamp.org/deployment/$version/jar/jogl-all-natives-linux-amd64.jar
 wget http://jogamp.org/deployment/$version/jar/jogl-all-natives-linux-i586.jar
 wget http://jogamp.org/deployment/$version/jar/jogl-all-natives-macosx-universal.jar
@@ -36,7 +36,7 @@ wget http://jogamp.org/deployment/$version/jar/jogl-all-natives-solaris-amd64.ja
 wget http://jogamp.org/deployment/$version/jar/jogl-all-natives-solaris-i586.jar
 wget http://jogamp.org/deployment/$version/jar/jogl-all-natives-windows-amd64.jar
 wget http://jogamp.org/deployment/$version/jar/jogl-all-natives-windows-i586.jar
-wget http://jogamp.org/deployment/$version/jar/jogl.all-noawt.jar
+wget http://jogamp.org/deployment/$version/jar/jogl-all-noawt.jar
 
 
 
